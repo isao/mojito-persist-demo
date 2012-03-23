@@ -8,7 +8,7 @@ YUI.add('hits', function(Y, NAME) {
             if(count === Infinity) {
                 count = 0;
             }
-            return count++;
+            return ++count;
         }
 
     };
