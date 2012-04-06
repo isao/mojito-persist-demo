@@ -1,18 +1,21 @@
 {
-    "name": "caching",
-    "description": "show how private vars persist across requests",
-    "version": "0.0.1",
-    "author": {
-        "name": "Isao Yagi",
-        "email": "isao@yahoo-inc.com"
-    },
-    "dependencies": {
-        "mojito": "> 0.2"
-    },
-    "engines": {
-        "node": "> 0.4"
-    },
-    "scripts": {
-        "start": "mojito start"
-    }
+  "name": "caching",
+  "description": "show how private vars persist across requests",
+  "version": "0.0.1",
+  "author": "Isao Yagi <isao@yahoo-inc.com>",
+  "dependencies": {
+    "mojito": "> 0.2"
+  },
+  "engines": {
+    "node": "> 0.4"
+  },
+  "scripts": {
+    "start": "mojito start"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github-eval.corp.yahoo.com:isao/mojito-cache-demo.git"
+  }
 }
