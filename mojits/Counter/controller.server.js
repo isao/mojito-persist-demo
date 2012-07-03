@@ -10,4 +10,4 @@ YUI.add('Counter', function(Y) {
         }
     };
 
-}, '0.0.1', {requires: ['mojito', 'hits']});
+}, '0.0.1', {requires: []});
